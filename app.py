@@ -19,12 +19,12 @@ import config
 RTC_CONFIG = RTCConfiguration({"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]})
 
 # --- CLEANUP HANDLER ---
-from utils.detector_yolo import YOLODetector
-from utils.tracker_deepsort import DeepSortTracker
-from utils.stabilizer import VideoStabilizer
-from utils.speed_estimator import SpeedEstimator, HomographySpeedEstimator
-from utils.reporting import Reporter
-from utils.visualizer import Visualizer
+from detector_yolo import YOLODetector
+from tracker_deepsort import DeepSortTracker
+from stabilizer import VideoStabilizer
+from speed_estimator import SpeedEstimator, HomographySpeedEstimator
+from reporting import Reporter
+from visualizer import Visualizer
 
 # --- CLEANUP HANDLER ---
 def cleanup_snapshots():
