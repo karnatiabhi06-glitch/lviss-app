@@ -6,3 +6,4 @@ av
 streamlit-webrtc
 aiortc
 utils
+utils.detector_yolo
