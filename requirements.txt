@@ -5,4 +5,4 @@ pandas
 av
 streamlit-webrtc
 aiortc
-
+ultralytics
