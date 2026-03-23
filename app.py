@@ -3,6 +3,10 @@ try:
    import cv2
 except:
     cv2 = None
+if cv2 is not None:
+   frame = cv2.VideoCapture(0)
+else:
+   st.warning("camera not avaliable")
         
 import numpy as np
 import av
