@@ -1,5 +1,6 @@
 import os
 import hashlib
+LOADER_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # --- SECURITY ---
 # Default to "admin" / "admin" by hashing the defaults
