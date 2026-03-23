@@ -1,9 +1,5 @@
 streamlit==1.32.0
-
 numpy==1.24.4
 pandas
-av
-streamlit-webrtc
-aiortc
-python-dotenv
+
 
